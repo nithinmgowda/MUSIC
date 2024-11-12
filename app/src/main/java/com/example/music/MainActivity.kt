@@ -17,7 +17,7 @@ import com.example.music.ui.theme.MUSICTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Thread.sleep(3000)
+        Thread.sleep(1500)
         installSplashScreen()
         enableEdgeToEdge()
         setContent {
